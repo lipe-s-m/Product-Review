@@ -1,0 +1,32 @@
+@import url("./../../global/global.css");
+@import url("./partials/presentation.css");
+@import url("./partials/comments.css");
+@import url("./partials/reviews.css");
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-grayish-magenta);
+    padding: 7rem;
+}
+
+main{
+    background-image: url("./../../../images/pages/index/bg-pattern-top-desktop.svg"), url("./../../../images/pages/index/bg-pattern-bottom-desktop.svg");
+    background-color: var(--white);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 7rem 5rem;
+    font-family: var(--league-spartan);
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0, 0.2);
+}
+
+section{
+    display: flex;
+}
+main p, main span{
+    font-size: var(--paragraph);
+}

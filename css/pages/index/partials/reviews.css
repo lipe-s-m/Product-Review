@@ -1,0 +1,20 @@
+#reviews {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 1rem;
+}
+.avaliate-box{
+    background-color: var(--light-grayish-magenta);
+    padding: 1.2rem;
+    border-radius: 0.7rem;
+    width: 65%;
+}
+.avaliate-box span{
+    margin-left: 2rem;
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+}
+.avaliate-box:nth-child(1) {
+  margin-top: 1rem;
+}

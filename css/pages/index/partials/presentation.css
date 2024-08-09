@@ -1,0 +1,24 @@
+#top-content {
+  display: flex;
+  justify-content: start;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+#presentation h1 {
+  color: var(--very-dark-magenta);
+  font-weight: 700;
+  font-size: 42px;
+  width: 50%;
+}
+
+#presentation p {
+  width: 60%;
+  color: var(--dark-grayish-magenta);
+  font-size: 400;
+}

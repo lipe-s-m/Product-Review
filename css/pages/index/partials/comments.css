@@ -1,0 +1,38 @@
+#comments{
+    margin-top: 4rem;
+    gap: 3rem;
+}
+
+article{
+    background-color: var(--very-dark-magenta);
+    width: 30%;
+    color: var(--light-grayish-magenta);
+    border-radius: 0.7rem;
+    padding: 2rem;
+    height: 100%;
+}
+.client-profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.client-profile img{
+    height: 3vw;
+}
+.client-profile-text{
+    margin-left: 1.5rem;
+}
+
+article:nth-child(2){
+    margin-top: 1.5rem;
+}
+article:nth-child(3){
+    margin-top: 3rem;
+}
+article .subtitle{
+    color: var(--soft-pink);
+}
+
+article img{
+    border-radius: 50%;
+}
